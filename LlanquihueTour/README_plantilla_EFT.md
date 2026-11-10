@@ -1,16 +1,16 @@
 ![Duoc UC](https://www.duoc.cl/wp-content/uploads/2022/09/logo-0.png)
-# 🧠 Evaluación Final Transversal – Desarrollo Orientado a Objetos I
+# 🧠 Actividad Sumativa 1: Realizando validación, excepciones y relaciones entre clases
 
 ## 👤 Autor del proyecto
-- **Nombre completo:** [Escribe aquí tu nombre]
-- **Sección:** [Escribe aquí tu sección]
-- **Carrera:** Ingeniería en Informática
-- **Sede:** [Escribe aquí tu sede, por ejemplo: Puerto Montt]
+- **Nombre completo:** Javiera Ignacia Vidal Véliz
+- **Sección:** 1
+- **Carrera:** Analista Programador Computacional
+- **Sede:** Online
 
 ---
 
 ## 📘 Descripción general del sistema
-Este proyecto corresponde a la Evaluación Final Transversal de la asignatura *Desarrollo Orientado a Objetos I*. Se trata de un sistema orientado a objetos desarrollado en Java, cuyo objetivo es modelar y gestionar entidades representativas de un dominio real, aplicando los principios de encapsulamiento, composición, herencia, polimorfismo e interfaces.
+Este proyecto corresponde a la solución del sistema de la empresa "LlanquihueTour", en donde se solucionan problemas asociados a duplicación y desorganización de contenido, falta de diferenciación de roles, etc.
 
 El proyecto fue desarrollado a partir de un caso contextualizado, abordando problemáticas reales y proponiendo una solución estructurada, modular y reutilizable.
 
@@ -22,9 +22,12 @@ El proyecto fue desarrollado a partir de un caso contextualizado, abordando prob
 📁 src/
 ├── app/         # Clase principal con el método main
 ├── model/       # Clases de dominio (Persona, Cliente, Empleado, Producto, etc.)
-├── data/        # Clases para la carga y lectura de archivos .txt
-├── utils/       # Utilidades y validaciones
-└── interfaces/  # Interfaces implementadas por las clases
+├── Cliente/        # Datos de reserva de un cliente
+├── Empleado/       # Datos laborales de un empleado
+├── UsuarioEmpleado/       # Composición: Empleado + InformacionPersonal
+├── UsuarioCliente/        # Composición: Cliente + InformacionPersonal
+├── InformacionPersonal/       # Datos personales de cualquier usuario
+└──
 ````
 
 ---
@@ -36,7 +39,7 @@ El proyecto fue desarrollado a partir de un caso contextualizado, abordando prob
 1. Clona el repositorio desde GitHub:
 
 ```bash
-git clone https://github.com/usuario/repositorio-evaluacion-final.git
+[]
 ```
 
 2. Abre el proyecto en IntelliJ IDEA.
@@ -50,8 +53,8 @@ git clone https://github.com/usuario/repositorio-evaluacion-final.git
 
 ---
 
-**Repositorio GitHub:** \[Pega aquí el enlace al repositorio]
-**Fecha de entrega:** \[DD/MM/2025]
+**Repositorio GitHub:** \https://github.com/javieravidalv/Llanquihue-Tour
+**Fecha de entrega:** \[09/11/2026]
 
 ---
 
